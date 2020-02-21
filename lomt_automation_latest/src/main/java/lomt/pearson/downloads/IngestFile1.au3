@@ -1,0 +1,5 @@
+WinWaitActive("Open")
+Send("^a")
+Send("{DEL}")
+Send(@ScriptDir & "\Files\" & $CmdLine[1])
+Send("{ENTER}")
